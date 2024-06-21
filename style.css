@@ -1,0 +1,68 @@
+.example{
+    border: 3px solid blue;
+    background-color: rgb(134, 202, 134);
+     /* height: 200vh; */
+}
+.box{
+    display: inline-block;
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+   
+}
+
+#box1{
+    position: static;
+}
+  
+#box2{
+    /* relative to its normal position and leave agap at its normal position  */
+
+    /* position: relative;
+    top: 2rem; */
+
+    position: static;
+}
+
+
+#box3{
+
+     /* relarive to the postion of its parent  container  */
+
+     /* position:absolute;
+    top: 4rem;
+    left:  2rem;
+    right: 4rem;  */
+
+    position: static;
+}
+
+#box4{
+/* position:sticky;
+top: 4rem; */
+
+position: static;
+}
+#box5{
+/* position:fixed;
+top: 4rem; */
+
+position: static;
+}
+
+.container1{
+    display: flex; 
+    /* after giving display flex property the inline element inside parent tag will act as block eleemnt  can be given height and width */
+    background-color: rgb(101, 170, 101);
+    height: 40px;
+}
+
+#s1{
+    background-color: rgb(135, 146, 160);
+
+}
+
+#s2{
+    background-color: red;
+}
